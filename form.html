@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <h2>Registration Form</h2>
+      <form action>
+        <section class="form-section">
+        <label for="first-name" class="form-label">First Name:</label>
+        <input
+          type="text"
+          id="first-name"
+          name="first-name"
+          class="form-input"
+          value=""
+          maxlength="20"
+        />
+        </section>
+        <!-- label in for and id in input connect front end to back end -->
+
+        <section class="form-section">
+        <label for="last-name" class="form-label">Last Name:</label>
+        <input
+          type="text"
+          id="last-name"
+          name="last-name"
+          class="form-input"
+          value=""
+          maxlength="20"
+        />
+        </section>
+
+        <section class="form-section">
+        <label for="email" class="form-label">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-input"
+          value=""
+          maxlength="20"
+        />
+        </section>
+
+        <section class="form-section">
+        <label for="password" class="form-label">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="form-input"
+          value=""
+          maxlength="20"
+        />
+        </section>
+
+        <section class="form-section">
+        <label for="date-of-birth" class="form-label">Date of Birth:</label>
+        <input
+          type="date"
+          id="date-of-birth"
+          name="date-of-birth"
+          class="date-of-birth"
+          value=""
+        />
+        </section>
+
+        <section class="form-section gender">
+        <p>Gender:</p>
+        <label for="male" class="form-label gender-radio">Male</label>
+        <input
+          type="radio"
+          id="male"
+          name="gender"
+          class="form-input gender-radio"
+          value="male"
+        />
+        <label for="female" class="form-label gender-radio">Female</label>
+        <input
+          type="radio"
+          id="female"
+          name="gender"
+          class="form-input gender-radio"
+          value="female"
+        
+        />
+        </section>
+        <!-- names should be the same. Otherwise both could have been selected  -->
+
+        <section class="form-section">
+        <label for="mobile" class="form-label">Mobile:</label>
+        <input
+          type="tel"
+          id="mobile"
+          name="mobile"
+          class="form-input"
+          value=""
+        />
+        </section>
+      </form>
+
+      <section class="form-section">
+        <input type="submit" name="submit" class="button submit-button" value="SUBMIT">
+        <input type="reset" name="clear" class="button reset-button" value="CLEAR">
+      </section>
+    </main>
+  </body>
+</html>
