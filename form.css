@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.form-section {
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.form-label {
+    margin-left: 50px;
+}
+
+main {
+    border: 2px solid blue;
+    border-radius: 3%;
+    margin: auto;
+    width: 450px;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    margin-top: 40px;
+}
+
+input {
+    margin-right: 50px;
+    padding: 4px;
+}
+
+.button {
+    width: 120px;
+    height: 35px;
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-left: 48px;
+    margin-right: 0px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.reset-button {
+    margin-left: 2px;
+    margin-right: 120px;
+}
+
+.gender {
+    display: block;
+    padding-left: 50px;
+}
+
+.gender p {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender-radio {
+    margin-right: 0px;
+    padding: 10px;
+    margin: 0px;
+}
